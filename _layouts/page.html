@@ -1,0 +1,26 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<div class="banner">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="span7">
+                <h1>{{ page.title }}</h1>
+            </div>
+            <div class="span4 offset1">
+                <h1>Graphic Here</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}

@@ -1,0 +1,17 @@
+{% include head.html %}
+{% include header.html %}
+<!----------
+content is outside the container-fluid to allow for 100% backgrounds.
+---------->
+<div id="content">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12">
+        <h1>Content</h1>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

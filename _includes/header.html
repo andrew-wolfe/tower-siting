@@ -1,0 +1,33 @@
+<body>
+<div class="nav-wrapper">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div id="site-header">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <a class="btn btn-navbar" data-target="#subnav" data-toggle="collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="/" title="Select to return to main page.">{{ site.title }}</a>
+                        <div class="nav-collapse collapse" id="subnav">
+                            <ul class="nav pull-right">
+                                {% assign name = page.url %}
+                                <li><a {% if name == '/index.html' %}class="active"{% endif %} href="{{ site.baseurl }}/" title="Select to return to main page.">Home</a></li>
+                                <li><a {% if name contains '/pre-construction-review' %}class="active"{% endif %} href="{{ site.baseurl }}/pre-construction-review">Pre-Construction</a></li>
+                                <li><a {% if name contains '/compliance' %}class="active"{% endif %} href="{{ site.baseurl }}/compliance">Compliance</a></li>
+                                <li><a {% if name contains '/authority' %}class="active"{% endif %} href="{{ site.baseurl }}/authority">Authority</a></li>
+                                <li><a {% if name contains '/reception-devices' %}class="active"{% endif %} href="{{ site.baseurl }}/reception-devices">Devices</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if name contains '/compliance' %}
+    {% include sub-header.html %}
+{% endif %}

@@ -1,0 +1,7 @@
+---
+title: Over the Air Reception Devices
+layout: page
+---
+In 1996, the Commission adopted the Over-the-Air Reception Devices Rule concerning governmental and nongovernmental restrictions on viewers' ability to receive video programming signals from direct broadcast satellites ("DBS"), multichannel multipoint distribution (wireless cable) providers ("MMDS"), and television broadcast stations ("TVBS"). The rule is cited as 47 C.F.R. Section 1.4000. It prohibits restrictions that impair the installation, maintenance or use of antennas used to receive video programming. The rule applies to video antennas including direct-to- home satellite dishes that are less than one meter (39.37") in diameter (or of any size in Alaska), TV antennas, and wireless cable antennas. The rule prohibits most restrictions that: (1) unreasonably delay or prevent installation, maintenance or use; (2) unreasonably increase the cost of installation, maintenance or use; or (3) preclude reception of an acceptable quality signal.
+
+Effective January 22, 1999, the Commission amended the rule so that it also applies to rental property where the renter has an exclusive use area, such as a balcony or patio. On October 25, 2000, the Commission further amended the rule so that it also will apply to customer-end antennas that receive and transmit fixed wireless signals. This amendment is scheduled to become effective upon approval by the Office of Management and Budget. 

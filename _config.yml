@@ -1,0 +1,5 @@
+title: Tower and Antenna Siting Issues
+
+#build config
+baseurl: /tower-siting
+exclude: [content, README.md]
